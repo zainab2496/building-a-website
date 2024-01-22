@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="layout.css">
+        <title>Hogwarts</title>
+    </head>
+    <body>
+        <div class="top-pics">
+            <img class="hp" src="https://logolook.net/wp-content/uploads/2021/07/Symbol-Harry-Potter.png" alt="harry potter writing">
+        </div>
+
+        <div class="nav-menu">
+            <nav>
+                <ul class="list">
+                    <li><a href="/Users/zainabalam/aa-projects/building-a-website/website-hp/Home_page1.html">Home</a></li>
+                    <li><a href="/Users/zainabalam/aa-projects/building-a-website/website-hp/Hogwarts-page2.html">Hogwarts and its Houses</a></li>
+                    <li><a href="/Users/zainabalam/aa-projects/building-a-website/website-hp/People-page3.html">Important People</a></li>
+                    <li><a href="/Users/zainabalam/aa-projects/building-a-website/website-hp/Place-page4.html">Wizarding Places</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="intro">
+            <h1>Hogwarts and its Houses!</h1>
+            <p>Hogwarts have 4 houses that students are sorted into by the Sorting Hat, created by the four Founders of Hogwarts. The Houses are named after them...</p>
+
+            <div class="gryff-house">
+            <h2>Gryffindor House</h2>
+            <img class="gryff" src="https://1000logos.net/wp-content/uploads/2021/11/Gryffindor-Logo.png" alt="gryffindor crest">
+            <p class="t1">Named after Godric Gryffindor, students sorted into this House exhibit qualities of brave, noble and recklessness. Their current Head of House is Professor Minerva McGonagall. Well known Gryffindors include the Golden Trio: Harry Potter, Ron Weasley and Hermione Granger, and Neville Longbottom.</p>
+            </div>
+
+            <div class="raven-house">
+            <h2>Ravenclaw House</h2>
+            <img class="raven" src="https://clipground.com/images/ravenclaw-png-5.jpg" alt="ravenclaw crest">
+            <p class="t2">Named after Rowena Ravenclaw, students sorted into this House value knowledge over everything. Their current Head of House is Professor Filius Flitwick. Well known Ravenclaws include Luna Lovegood, Cho Chang and Padma Patil.</p>
+            </div>
+
+            <div class="puff-house">
+            <h2>Hufflepuff House</h2>
+            <img class="puffs" src="https://i.pinimg.com/originals/e0/e2/bc/e0e2bca469b63385d89ec2f1250e4ca5.jpg" alt="hufflepuff crest">
+            <p class="t3">Named after Helena Hufflepuff, students sorted into this House value loyalty and friendship. Their current Head of House is Professor Pomona Sprout. Well known Hufflepuffs include Nymphadora Tonks and Cedric Diggory.</p>
+            </div>
+
+            <div class="slyth-house">
+            <h2>Slytherin House</h2>
+            <img class="slyth" src="http://img11.deviantart.net/7fc5/i/2011/235/3/d/slytherin_by_melisarodriguez-d47ly0k.png" alt="slytherin crest">
+            <p class="t4">Named after Salazar Slytherin, students sorted into this House value ambition and cunning. Their current Head of House is Professor Severus Snape. Well known Slytherins include Draco Malfoy, Pansy Parkinson, Vincent Crabbe and Gregory Goyle.</p>
+            </div>
+
+        </div>
+
+        <div class="form">
+            <h2>What's your Hogwarts' House?</h2>
+            <form action="/form-handling-url" method="post">
+                <fieldset>
+                    <legend>Fill in the form to join your Hogwarts House:</legend>
+                    <div class="name">
+                        <label for="name">What is your name?</label>
+                        <input type="text" id="name" name="fullName">
+                    </div>
+                    <div class="age">
+                        <label for="age">What is your age?</label>
+                        <input type="text" id="age" name="user-age">
+                    </div>
+
+                    <div class="type-of-wizard">
+                        <p>Choose what type of witch or wizard you are:</p>
+                        <div class="button1">
+                            <input type="radio" id="muggleborn" name="type-of-wizard" value="muggleborn" checked>
+                            <label for="muggleborn">Muggleborn</label>
+                        </div>
+                        <div class="button2">
+                            <input type="radio" id="halfblood" name="type-of-wizard" value="halfblood" checked>
+                            <label for="halfblood">Halfblood</label>
+                        </div>
+                        <div class="button3">
+                            <input type="radio" id="pureblood" name="type-of-wizard" value="pureblood" checked>
+                            <label for="pureblood">Pureblood</label>
+                        </div>
+                    </div>
+
+                    <div class="house">
+                        <label for="house">What is your Hogwarts House?</label>
+                        <select id="house" name="user_house">
+                            <option value="gryff">Gryffindor</option>
+                            <option value="raven">Ravenclaw</option>
+                            <option value="puff">Hufflepuff</option>
+                            <option value="slyth">Slytherin</option>
+                        </select>
+                    </div>
+
+                    <div class="subject">
+                        <label for="subject">What will be the subject you enjoy studying in Hogwarts?</label>
+                        <textarea id="subject" name="subject_box"></textarea>
+                    </div>
+
+                    <div class="submit-button">
+                        <button type="submit">Submit!</button>
+                    </div>
+
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>

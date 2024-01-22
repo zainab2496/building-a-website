@@ -1,0 +1,163 @@
+.top-pics {
+    display:flex;
+    justify-content: space-between;
+    width: 150px;
+    height: 150px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.nav-menu {
+    margin-right: 20px;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+  }
+
+
+
+.list {
+    display: flex;
+    height:fit-content;
+    width:1000px;
+    padding:10px;
+}
+
+li a {
+    float:left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  /* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: gray;
+}
+
+h1 {
+    font-family: didot, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2 {
+    font-family: didot, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h3 {
+    font-family: didot, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p {
+    font-family: fantasy;
+}
+body {
+    background-color: #d9d0b4;
+}
+.main-pic {
+    width:1265px;
+}
+
+.gryff-house {
+    display: flex;
+    height:fit-content;
+    width:1000px;
+    padding:10px;
+}
+.gryff {
+    height: 200px;
+    width:400px;
+    flex: 1;
+}
+.t1 {
+    margin-right: 100px;
+}
+
+.raven-house {
+    display: flex;
+    height:fit-content;
+    width:1000px;
+    padding:10px;
+}
+.raven {
+    height: 200px;
+    width:400px;
+    flex: 1;
+    margin-left: 80px;
+}
+.t2 {
+    margin-right: 100px;
+    margin-left:80px;
+}
+
+.puff-house {
+    display: flex;
+    height:fit-content;
+    width:1000px;
+    padding:10px;
+}
+.puffs {
+    height: 200px;
+    width:400px;
+    flex: 1;
+    margin-left: 80px;
+}
+.t3 {
+    margin-right: 100px;
+    margin-left:110px;
+}
+
+.slyth-house {
+    display: flex;
+    height:fit-content;
+    width:1000px;
+    padding:10px;
+}
+.slyth {
+    height: 200px;
+    width:400px;
+    flex: 1;
+    margin-left: 80px;
+}
+.t4 {
+    margin-right: 100px;
+    margin-left:120px;
+}
+
+.form {
+    font-family: fantasy;
+}
+input[type=text] {
+    display:block;
+    margin:10px 0;
+}
+textarea {
+    display:block;
+    margin:10px 0;
+    padding:10px;
+    width:450px;
+}
+.house {
+    display:block;
+    margin:0;
+    padding-bottom:10px;
+    padding-top:10px;
+}
+
+.person {
+    display:flexbox;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    width:200px;
+    height:200px;
+}
+
+.place {
+    display:flexbox;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    width:200px;
+    height:200px;
+}
